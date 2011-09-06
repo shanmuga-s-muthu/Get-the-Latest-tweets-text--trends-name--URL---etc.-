@@ -5,7 +5,6 @@ require 'rest-client'
 require 'json'
 require 'optparse'
 
-options = {1=>2, 3=>4, 5=>6}
 
 opt_parser = OptionParser.new do |opt|
   opt.banner = "Usage: opt_parser COMMAND [OPTIONS]"
