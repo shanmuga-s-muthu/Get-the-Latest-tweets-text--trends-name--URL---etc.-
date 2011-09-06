@@ -1,0 +1,29 @@
+$ruby Tweets.rb --help
+Usage: opt_parser COMMAND [OPTIONS]
+
+Commands
+     Tweets: tweets #hashtag (if you try with this command then you will get the latest tweets TEXT based on your hash_tag)
+     Trends: trends (if you try with this command then you will get the name and url of trends)
+     Twitteri_API: api (if you try with this command then you will get the twitter api)
+     Screen_name: screen_name username (if you try with this command then you will get User information in XML format)
+
+Options
+    -h, --help                       help
+please pass the #hash_tags
+
+Getting trends name and URL from the command Line
+example: 
+$ruby Tweets.rb trends
+-------------------------- TWITTER TRENDS --------------------------
+Trend: #ThingsThatDontMakeSense , URL: http://twitter.com/search/%23ThingsThatDontMakeSense
+Trend: #Youshouldbeashamedif    , URL: http://twitter.com/search/%23Youshouldbeashamedif
+Trend: #QueNoTeDePenaDecir      , URL: http://twitter.com/search/%23QueNoTeDePenaDecir
+Trend: SEX IN THE KITCHEN , URL: http://twitter.com/search/%22SEX%20IN%20THE%20KITCHEN%22
+Trend: Zoey 101 , URL: http://twitter.com/search/%22Zoey%20101%22
+Trend: Sex Weed , URL: http://twitter.com/search/%22Sex%20Weed%22
+Trend: Rocko's Modern Life      , URL: http://twitter.com/search/%22Rocko's%20Modern%20Life%22
+Trend: Viva Mexico      , URL: http://twitter.com/search/%22Viva%20Mexico%22
+Trend: Hey Arnold       , URL: http://twitter.com/search/%22Hey%20Arnold%22
+Trend: Niger    , URL: http://twitter.com/search/Niger
+-------------------------- END TRENDS ------------------------------
+
