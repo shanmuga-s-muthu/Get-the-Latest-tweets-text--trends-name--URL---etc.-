@@ -1,3 +1,5 @@
+Please install folowing gems to run the Tweets.rb:- rest-client and json
+
 $ruby Tweets.rb --help
 Usage: opt_parser COMMAND [OPTIONS]
 
